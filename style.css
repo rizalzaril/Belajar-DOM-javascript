@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  flex-direction: column;
+  line-height: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  opacity: 0.5;
+}
+
+button {
+  padding: 12px;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center; /* centers horizontally */
+  align-items: center; /* centers vertically */
+  height: 100vh; /* full viewport height for vertical centering */
+}
+
+#langit {
+  background-color: rgb(10, 63, 17);
+  width: 300px;
+  padding: 50px;
+}
+
+#luar {
+  background-color: green;
+  width: 250px;
+  padding: 50px;
+}
+
+#tengah {
+  background-color: greenyellow;
+  width: 200px;
+  padding: 50px;
+}
+
+#dalam {
+  background-color: white;
+  width: 150px;
+  padding: 50px;
+}
+
+.contents {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 15px;
+}
+
+#generateButton {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.buttons {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid black;
+  padding: 15px;
+}
+.button {
+  margin: 8px;
+  height: 40px;
+}
+
+.form-element {
+  margin: 8px;
+  text-align: left;
+}
+/* #notifikasiSisaKarakter {
+  visibility: hidden;
+} */
